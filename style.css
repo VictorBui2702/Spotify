@@ -1,0 +1,158 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+  height: inherit; 
+  width: 1170px;   
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  nav { 
+    height: 80px; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    position: fixed;
+  }
+
+  header { 
+    height: 805px; 
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%); 
+  }
+
+  footer { 
+    height: 538px; 
+    background-color: black; 
+  }
+
+  .spotify-logo {
+    width: 132px;
+    height: 40px;
+    margin: 20px 0; 
+  }
+
+  nav ul {
+    width: 484px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav li {
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #1db954;
+  }
+
+  .hero-img {
+    height: inherit;
+    margin: 0 auto;
+    background-image: url(img/hero-burst.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #title {
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  #small-title {
+    /* width: inherit; */
+    color: white;
+    text-align: center;
+    font-size: 18px; 
+    font-weight: 400;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn-spotify {
+    width: 260px;
+    margin: 0 auto;
+    color: white;
+    background-color: #1db954;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+
+  .btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+.sub-footer {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.manyLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 50%;
+}
+
+.manyLinks ul {
+  list-style-type: none;
+}
+
+.footer-1 li { 
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.clear-margin { 
+  margin: 0px;
+}
